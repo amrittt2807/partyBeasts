@@ -1,0 +1,15 @@
+#anniversaryEvent::before{
+    content: "";
+    background: url(../myImages/bgAnniversary.jpg) no-repeat center center/cover;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.90;
+    filter: brightness(0.4);
+}
+.anniversaryVendorList{
+    margin: 30px 0px;
+}

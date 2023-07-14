@@ -1,0 +1,81 @@
+#navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+}
+#navbar::before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+/* Navbar logo and image */
+#logo img{
+    margin: 5px 20px;
+    height: 50px;
+    filter: invert(60%);
+}
+
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.1rem;
+}
+#navbar ul li a{
+    color:white;
+    margin: 0 3px;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+}
+.active{
+    color:black !important;
+    background-color: white;
+}
+#right{
+    align-items: end;
+}
+#left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.signButtons{
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding: 0.3rem;
+    color:white;
+    background: #00000030;
+    width: 6rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.35s;
+    cursor: pointer;
+}
+
+.signButtons:hover{
+    font-size: 1.1rem;
+    box-shadow: 1px 1px 5px white;
+    background: #00000075;
+    
+}
+.signBtns a{
+    color: white;
+    text-decoration: none;
+}

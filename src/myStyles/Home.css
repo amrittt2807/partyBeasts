@@ -1,0 +1,62 @@
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    justify-content: center;
+    height: 661px;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background: url(../myImages/bgHome.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 781px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.90;
+}
+.h-primary{
+    font-size: 4rem;
+    padding: 10px;
+}
+.h-secondary{
+    font-size: 1.8rem;
+    padding: 10px;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 5px 5px 8px black;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    word-spacing: 1.5px;
+    text-shadow: 3px 3px 6px black;
+}
+.btn{
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 6px 20px;
+    border: 2px solid white;
+    background: #f8f0f814;
+    color: white;
+    margin: 17px;
+    font-size: 1.25rem;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    font-size: 1.30rem;
+    background-color: #f770f7;
+    color: black;
+
+}
+.centre{
+    text-align: center;
+}

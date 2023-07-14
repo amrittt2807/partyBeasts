@@ -1,0 +1,72 @@
+#contact{
+    color: white;
+    margin: 110px;
+}
+#contact::before{
+    content: "";
+    background: url(../myImages/bgContactUs.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 781px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.90;
+    filter: brightness(0.6);
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+.name-phone{
+    display: flex;
+}
+
+.contactHead {
+    font-size: 4rem;
+    padding: 10px;
+    text-shadow: 6px 7px 5px black;
+}
+
+#contact-box input,
+#contact-box textarea{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+textarea{
+    resize: none;
+}
+#email, #message{
+    width:478px;
+}
+#phone, #name{
+    width: 224px;
+}
+
+#endButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#endButton input{
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: #780707;
+    color: white;
+    margin: 17px;
+    font-size: 1.25rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#endButton input:hover{
+    font-size: 1.30rem;
+    background-color: #ff9090;
+    color: black;
+}

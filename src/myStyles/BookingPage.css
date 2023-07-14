@@ -1,0 +1,116 @@
+/* *{
+    font-family: 'Belanosima';
+} */
+
+.venuePage::before{
+    content: "";
+    background: url(../myImages/venuePageBG.jpg) no-repeat center center/cover;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.90;
+    filter: brightness(0.5);
+}
+.largestContainer{
+    margin: 30px 20px;
+    padding: 25px 0;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.50);
+    border-radius: 10px;
+    z-index: -100;
+}
+.imagesContainer{
+    width: 45%;
+    height: 60vh;
+    margin: 0 1% 0 4%;
+}
+.detailContainer{
+    width: 55%;
+    margin: 0 3%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pageBigText{
+    color: #f1ec05;
+    font-size: 2.7rem;
+    letter-spacing: 0.2rem;
+    padding: 5px;
+}
+.pageMediumText{
+    color: white;
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    font-weight: lighter;
+    padding: 10px;
+}
+.pageSmallText{
+    color: white;
+    font-size: 1.2rem;
+    word-spacing: 3px;
+    font-weight: lighter;
+    padding: 10px;
+    font-family: 'Belanosima';
+}
+.pageSmallerText{
+    color: white;
+    font-size: 1rem;
+    word-spacing: 1px;
+    font-weight: lighter;
+    font-family: 'Belanosima';
+}
+.pricing{
+    color: greenyellow;
+    
+    font-size: 1.1rem;
+}
+.bookingButtons{
+    display: flex;
+    position: relative !important;
+    translate: -0.1rem 3rem;
+    justify-content: space-around;
+    z-index: 100;
+}
+.book{
+    font-family: 'Belanosima', sans-serif !important;
+    padding: 9px;
+    font-size: 1.5rem;
+    border-radius: 12px;
+    font-family: 'Belanosima';
+    border: none;
+    /* box-shadow: 3px 3px 6px 0px black; */
+    transition: all 0.5s;
+    color: white;
+    background: rgba(0, 0, 0, 0.74);
+    cursor: pointer;
+    width: 11rem;
+}
+.book:hover{
+    color: black;
+    background: white;
+}
+
+.bookmark{
+    font-family: 'Belanosima', sans-serif !important;
+    padding: 9px;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    font-family: 'Belanosima';
+    border: none;
+    /* box-shadow: 3px 3px 6px 0px black; */
+    transition: all 0.5s;
+    color: white;
+    width: 11rem;
+    height: 3rem;
+    background: rgba(0, 0, 0, 0.74);
+}
+.bookmark:hover{
+    background: green;
+}

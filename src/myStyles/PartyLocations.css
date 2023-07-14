@@ -1,0 +1,55 @@
+#locations::before {
+    content: "";
+    background: url(../myImages/partyLocation.jpg) no-repeat center center/cover;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.90;
+  }
+.venues{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.locationsHeading{
+    text-align: center;
+    font-size: 4rem;
+    margin: 50px;
+    color: white;
+    text-shadow: 5px 6px 5px black;
+}
+.bottomHeading{
+    color:white;
+    padding: 10px;
+    letter-spacing: 2px;
+    text-shadow: 4px 5px 5px black;
+}
+.pageBottom{
+    margin:15px 10px;
+    display: flex;
+    align-items: center;
+}
+.bottombtn{
+    width: 11rem;
+    padding: 2px 3px;
+    margin: 31px 63px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    background: #000000a1;
+    border: none;
+    color: #fdf1ff;
+    transition: all 0.5s;
+}
+.bottombtn:hover{
+    font-size: 1.6rem;
+    background: #000000cc;
+    box-shadow: 5px 3px 5px #9f8888;
+    cursor: pointer;
+}
+
+

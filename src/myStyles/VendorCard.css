@@ -1,0 +1,50 @@
+.vendorCards{
+    width:20%;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.538);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    font-family: 'Belanosima', sans-serif;
+    box-shadow: 3px 3px 8px black;
+    margin: 20px;
+}
+.vendorImage img{
+    width: 95%;
+    padding: 3px;
+    height: 87px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px black;
+}
+.vendorDetails{
+    padding: 0 10px;
+    color: white;
+}
+.vendorName{
+    font-size: 1.3rem;
+    padding: 2px;
+    transition: all 0.5s;
+}
+.rating{
+    padding: 2px;
+}
+.bookNow{
+    background: rgb(0 0 0 / 47%);
+    color: white;
+    border: none;
+    margin: 2px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-family: 'Belanosima', sans-serif;
+    transition: all 0.5s;
+}
+.bookNow:hover{
+    .vendorName{
+        font-size: 1.4rem;
+        color: yellow;
+    }
+    font-size: 1rem;
+    background-color: rgb(0 0 0 / 60%);
+    box-shadow: 1px 1px 5px white;
+    cursor: pointer;
+}
