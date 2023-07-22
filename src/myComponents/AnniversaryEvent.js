@@ -22,7 +22,7 @@ export default function AnniversaryEvent() {
       <div className="birthdayLocations">
           {
             venues.map((venue)=>{
-              return <LocationCards venue={venue}/>
+              return <LocationCards venue={venue} key={venue._id}/>
             })
           }
       </div>

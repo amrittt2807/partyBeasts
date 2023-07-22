@@ -1,0 +1,80 @@
+.linkContainer{
+    text-decoration: none;
+}
+
+.bookmarkBox{
+    width: 95%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:2.5vw;
+    border-radius: 0.8rem;
+    background: #00000059;
+    text-decoration: none;
+    box-shadow: 3px 3px 6px black;
+    transition: all 0.35s;
+}
+.bookmarkBox:hover{
+    box-shadow: 6px 6px 9px black;
+}
+.bookmarkImage{
+    width: 20%;
+    height: 80%;
+    border-radius: 0.5rem;
+    background: rgb(0 0 0 / 26%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 5px 5px 12px black; */
+}
+.bookmarkImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    
+}
+.bookmarkDetails{
+    width: 70%;
+    height: 80%;
+    border-radius: 0.5rem;
+    background: rgb(0 0 0 / 26%);
+    transition: all 0.5s;
+}
+.bookmarkHeading{
+    font-family: 'Belanosima';
+    padding: 1rem 1.5rem;
+    color: rgb(241, 255, 91);
+    text-decoration: none !important;
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
+}
+.bookmarkEvents{
+    display: flex;
+}
+.bEvent{
+    font-family: 'Belanosima';
+    margin: 1rem 1.5rem;
+    font-size: 1.25rem;
+    color: white;
+}
+.bookmarkRating{
+    font-family: 'Belanosima';
+    margin: 0 1.5rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.removeIcon{
+    translate: 90% -175%;
+    width: 4rem;    
+}
+.removeIcon img{
+    height: 3rem;
+    filter: invert(100%);
+    transition: all 0.35s;
+    right: -51rem;
+    position: relative;
+}
+.removeIcon img:hover{
+    height: 3.25rem;
+}

@@ -26,7 +26,7 @@ export default function BirthdaysEvent() {
       <div className="birthdayLocations">
           {
             venues.map((venue)=>{
-              return <LocationCards venue={venue}/>
+              return <LocationCards venue={venue} key={venue._id}/>
             })
           }
       </div>

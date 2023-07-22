@@ -15,6 +15,7 @@ import SignUp from "./myComponents/SignUp";
 import BookingPage from "./myComponents/BookingPage";
 import BookingModal from "./myComponents/BookingModal";
 import VenueState from "./context/venues/VenueState";
+import BookmarksPage from "./myComponents/BookmarksPage";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
             <Route path="/sign-up" element={<SignUp />} />
             <Route path="/book-venue/:id" element={<BookingPage />} />
             <Route path="/modal" element={<BookingModal />} />
+            <Route path="/bookmarks" element={<BookmarksPage />} />
           </Routes>
           <Footer />
         </Router>

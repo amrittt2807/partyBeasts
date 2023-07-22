@@ -22,7 +22,7 @@ export default function PartyLocations() {
         {
           venues.map((venue)=>{
             
-            return <LocationCards venue={venue} key={venue.id}/>
+            return <LocationCards venue={venue} key={venue._id}/>
           })
         }
       </div>
